@@ -6,61 +6,71 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV de Bang Chan</title>
+    <link rel="stylesheet" href="tarea 3.css">
 </head>
 
 <body>
-    <audio src="charmer.mp3" controls></audio>
+    <div id="audiobox">
+        <audio src="charmer.mp3" controls></audio>
+    </div>
     <h1>Christopher Chan Bang</h1>
-    <h2>Productor / compositor / cantante</h2>
-    <h3>25 años</h3>
-    <img src="images/bang chan header 2.jpg" alt="bang chan">
-
-    <h3>Sobre mi</h3>
-    <p>Nací en Sydney, Australia y me mudé a Corea del Sur en 2010 para perseguir mis sueños de ser cantante.
-        En 2018 hice mi debut en el grupo <a href="https://es.wikipedia.org/wiki/Stray_Kids" target="valor">Stray Kids</a> y al día de la fecha tengo 139 canciones registradas a mi nombre en
-        la Asociación de copyright de Corea del Sur.</p>
-    <h3>Discografía</h3>
-    <ol>
-        <li>I am Not <img src="images/1.jpg" alt="I am Not"></li>
-        <li>I am Who <img src="images/2.jpg" alt="I am Who"></li>
-        <li>I am You <img src="images/3.jpg" alt="I am You"></li>
-        <li>Clé 1: Miroh <img src="images/4.jpg" alt="Miroh"></li>
-        <li>Clé 2: Yellow Wood <img src="images/5.jpg" alt="Yellow Wood"></li>
-        <li>Clé: Levanter <img src="images/6.jpg" alt="Levanter"></li>
-        <li>Go Life <img src="images/7.jpg" alt="Go Life"></li>
-        <li>In Life <img src="images/8.jpg" alt="In Life"></li>
-        <li>Noeasy <img src="images/9.jpg" alt="Noeasy"></li>
-        <li>Christmas EveL <img src="images/10.jpg" alt="Christmas EveL"></li>
-        <li>Oddinary <img src="images/11.jpg" alt="Oddinary"></li>
-        <li>Maxident <img src="images/12.jpg" alt="Maxident"></li>
-    </ol>
+    <h2 class="descripcion">Productor / compositor / cantante</h2>
+    <h3 class="age">25 años</h3>
+    <img src="images/bang chan header 2.jpg" alt="bang chan" class="header">
+    <div class="info">
+        <h3 class="about">Sobre mi</h3>
+        <div class="about2">
+            <p>Nací en Sydney, Australia y me mudé a Corea del Sur en 2010 para perseguir mis sueños de ser cantante.
+                En 2018 hice mi debut en el grupo <a href="https://es.wikipedia.org/wiki/Stray_Kids"
+                    target="valor">Stray
+                    Kids</a> y al día de la fecha tengo 139 canciones registradas a mi nombre en
+                la Asociación de copyright de Corea del Sur.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem labore quibusdam repellat. Expedita deleniti quam perspiciatis magnam dicta obcaecati quae in molestias minus repellat culpa, ipsum earum autem asperiores rerum.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi dignissimos distinctio, neque quia eaque explicabo vel id, incidunt eius corporis dolor exercitationem consequuntur? Quod nulla nostrum dolorum labore incidunt molestias.</p>
+        </div>
+        <h3 class="disc">Discografía</h3>
+        <ol class="lista">
+            <li>I am Not <img src="images/1.jpg" alt="I am Not" class="item"></li>
+            <li>I am Who <img src="images/2.jpg" alt="I am Who" class="item"></li>
+            <li>I am You <img src="images/3.jpg" alt="I am You" class="item"></li>
+            <li>Clé 1: Miroh <img src="images/4.jpg" alt="Miroh" class="item"></li>
+            <li>Clé 2: Yellow Wood <img src="images/5.jpg" alt="Yellow Wood" class="item"></li>
+            <li>Clé: Levanter <img src="images/6.jpg" alt="Levanter" class="item"></li>
+            <li>Go Life <img src="images/7.jpg" alt="Go Life" class="item"></li>
+            <li>In Life <img src="images/8.jpg" alt="In Life" class="item"></li>
+            <li>Noeasy <img src="images/9.jpg" alt="Noeasy" class="item"></li>
+            <li>Christmas EveL <img src="images/10.jpg" alt="Christmas EveL" class="item"></li>
+            <li>Oddinary <img src="images/11.jpg" alt="Oddinary" class="item"></li>
+            <li>Maxident <img src="images/12.jpg" alt="Maxident" class="item"></li>
+        </ol>
+    </div>
     <h3>Contacto</h3>
     <form action="">
-    <p><input type="text" name="Nombre" placeholder="Nombre"></p>
-    <p><input type="text" name="Apellido" placeholder="Apellido"></p>
-    <p><input type="text" name="Email" placeholder="Email"></p>
-    <p><input type="text" name="Teléfono" placeholder="Teléfono"></p>
-    <p>
-        <label for="Motivo">Motivo</label>
-    <ul>
-        <li>
-            <input type="checkbox" name="Motivo []" id="Producción" />
-            <label for="Producción">Producción</label>
-        </li>
-        <li>
-            <input type="checkbox" name="Motivo []" id="Composición" />
-            <label for="Composición">Composición</label>
-        </li>
-        <li>
-            <input type="checkbox" name="Motivo []" id="Actuaciones" />
-            <label for="Actuaciones">Actuaciones</label>
-        </li>
-    </ul>
-    </p>
-    <p>
-        <input type="submit" value="Enviar">
-    </p>
-</form>
+        <p><input type="text" name="Nombre" placeholder="Nombre"></p>
+        <p><input type="text" name="Apellido" placeholder="Apellido"></p>
+        <p><input type="text" name="Email" placeholder="Email"></p>
+        <p><input type="text" name="Teléfono" placeholder="Teléfono"></p>
+        <p>
+            <label for="Motivo">Motivo</label>
+        <ul>
+            <li>
+                <input type="checkbox" name="Motivo []" id="Producción" />
+                <label for="Producción">Producción</label>
+            </li>
+            <li>
+                <input type="checkbox" name="Motivo []" id="Composición" />
+                <label for="Composición">Composición</label>
+            </li>
+            <li>
+                <input type="checkbox" name="Motivo []" id="Actuaciones" />
+                <label for="Actuaciones">Actuaciones</label>
+            </li>
+        </ul>
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+        </p>
+    </form>
 
 </body>
 
